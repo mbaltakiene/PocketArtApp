@@ -1,0 +1,60 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/cardview_margin"
+    android:layout_marginLeft="@dimen/cardview_margin"
+    android:layout_marginRight="@dimen/cardview_margin"
+    android:layout_marginTop="@dimen/cardview_margin"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <LinearLayout
+        android:id="@+id/image_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@color/photo_placeholder"
+            android:contentDescription="@string/default_content_description"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/transition_photo" />
+
+        <TextView
+            android:id="@+id/painting_title"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDarkGray"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/text_view_margin"
+            android:paddingLeft="@dimen/text_view_title_margin"
+            android:paddingRight="@dimen/text_view_title_margin"
+            android:paddingTop="@dimen/text_view_title_margin"
+            android:textColor="@android:color/white"
+            tools:text="Picture Title" />
+
+        <TextView
+            android:id="@+id/painting_author"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDarkGray"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingBottom="@dimen/text_view_title_margin"
+            android:paddingLeft="@dimen/text_view_title_margin"
+            android:paddingRight="@dimen/text_view_title_margin"
+            android:textColor="@color/colorLightGray"
+            tools:text="Author (1300-1310)" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

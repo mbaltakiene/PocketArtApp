@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pocket Art App</string>
+    <string name="default_content_description">image</string>
+    <string name="action_share">Share</string>
+    <string name="no_data">No data to display.</string>
+    <string name="transition_photo">transition_photo</string>
+    <string name="share_via">Share via</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_view_text">"No image yet…"</string>
+    <string name="content_title">Creating a Widget service</string>
+    <string name="content_text">This service will set an image to widget.</string>
+    <string name="default_channel">default</string>
+    <string name="by">\" by \"</string>
+    <string name="free">free</string>
+</resources>
